@@ -1,0 +1,421 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.1003.1601                               -->
+<workbook original-version='18.1' source-build='2025.2.4 (20252.25.1003.1601)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='04_Yearly_Seasonal_Revenue' inline='true' name='federated.1n4erwj16cumm614brvjl0hiric7' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='04_Yearly_Seasonal_Revenue' name='textscan.0bshnlc09z93b917vmo151gipo9b'>
+            <connection class='textscan' directory='E:/OneDrive/00 - Portfolio Projects/Project03 - North Star/CSV' filename='04_Yearly_Seasonal_Revenue.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0bshnlc09z93b917vmo151gipo9b' name='04_Yearly_Seasonal_Revenue.csv' table='[04_Yearly_Seasonal_Revenue#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='year' ordinal='0' />
+            <column datatype='integer' name='season_order' ordinal='1' />
+            <column datatype='string' name='year_season' ordinal='2' />
+            <column datatype='real' name='total_revenue' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[04_Yearly_Seasonal_Revenue.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[04_Yearly_Seasonal_Revenue.csv]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[04_Yearly_Seasonal_Revenue.csv_58AC694EFEE943B29012F1A26B16E906]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>season_order</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[season_order]</local-name>
+            <parent-name>[04_Yearly_Seasonal_Revenue.csv]</parent-name>
+            <remote-alias>season_order</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[04_Yearly_Seasonal_Revenue.csv_58AC694EFEE943B29012F1A26B16E906]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year_season</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[year_season]</local-name>
+            <parent-name>[04_Yearly_Seasonal_Revenue.csv]</parent-name>
+            <remote-alias>year_season</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[04_Yearly_Seasonal_Revenue.csv_58AC694EFEE943B29012F1A26B16E906]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_revenue]</local-name>
+            <parent-name>[04_Yearly_Seasonal_Revenue.csv]</parent-name>
+            <remote-alias>total_revenue</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[04_Yearly_Seasonal_Revenue.csv_58AC694EFEE943B29012F1A26B16E906]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='04_Yearly_Seasonal_Revenue.csv' datatype='table' name='[__tableau_internal_object_id__].[04_Yearly_Seasonal_Revenue.csv_58AC694EFEE943B29012F1A26B16E906]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Season Order' datatype='integer' name='[season_order]' role='dimension' type='ordinal' />
+      <column caption='Total Revenue' datatype='real' name='[total_revenue]' role='dimension' type='ordinal' />
+      <column caption='Year' datatype='date' name='[year]' role='dimension' type='ordinal' />
+      <column caption='Year Season' datatype='string' name='[year_season]' role='dimension' type='nominal' />
+      <column-instance column='[year]' derivation='Year' name='[yr:year:ok]' pivot='key' type='ordinal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/felix/AppData/Local/Temp/TableauTemp/#TableauTemp_0bpuab30e4jcli11g18xc05m4h6y.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='11/29/2025 11:56:19 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>year</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>year</remote-alias>
+              <ordinal>0</ordinal>
+              <family>04_Yearly_Seasonal_Revenue.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[04_Yearly_Seasonal_Revenue.csv_58AC694EFEE943B29012F1A26B16E906]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>season_order</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[season_order]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>season_order</remote-alias>
+              <ordinal>1</ordinal>
+              <family>04_Yearly_Seasonal_Revenue.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[04_Yearly_Seasonal_Revenue.csv_58AC694EFEE943B29012F1A26B16E906]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>year_season</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[year_season]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>year_season</remote-alias>
+              <ordinal>2</ordinal>
+              <family>04_Yearly_Seasonal_Revenue.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[04_Yearly_Seasonal_Revenue.csv_58AC694EFEE943B29012F1A26B16E906]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_revenue</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[total_revenue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_revenue</remote-alias>
+              <ordinal>3</ordinal>
+              <family>04_Yearly_Seasonal_Revenue.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[04_Yearly_Seasonal_Revenue.csv_58AC694EFEE943B29012F1A26B16E906]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[yr:year:ok]' palette='sf_bluegrass' type='palette'>
+            <map to='#116985'>
+              <bucket>2024</bucket>
+            </map>
+            <map to='#27aab0'>
+              <bucket>2023</bucket>
+            </map>
+            <map to='#51d2bb'>
+              <bucket>2022</bucket>
+            </map>
+            <map to='#94e7a8'>
+              <bucket>2021</bucket>
+            </map>
+            <map to='#c7f296'>
+              <bucket>2020</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='04_Yearly_Seasonal_Revenue.csv' id='04_Yearly_Seasonal_Revenue.csv_58AC694EFEE943B29012F1A26B16E906'>
+            <properties context=''>
+              <relation connection='textscan.0bshnlc09z93b917vmo151gipo9b' name='04_Yearly_Seasonal_Revenue.csv' table='[04_Yearly_Seasonal_Revenue#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='date' name='year' ordinal='0' />
+                  <column datatype='integer' name='season_order' ordinal='1' />
+                  <column datatype='string' name='year_season' ordinal='2' />
+                  <column datatype='real' name='total_revenue' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='36'>Seasonal Revenue</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='04_Yearly_Seasonal_Revenue' name='federated.1n4erwj16cumm614brvjl0hiric7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1n4erwj16cumm614brvjl0hiric7'>
+            <column-instance column='[season_order]' derivation='None' name='[none:season_order:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[total_revenue]' derivation='None' name='[none:total_revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[year_season]' derivation='None' name='[none:year_season:nk]' pivot='key' type='nominal' />
+            <column aggregation='Sum' caption='Season Order' datatype='integer' name='[season_order]' role='dimension' type='ordinal' />
+            <column caption='Total Revenue' datatype='real' name='[total_revenue]' role='dimension' type='ordinal' />
+            <column caption='Year' datatype='date' name='[year]' role='dimension' type='ordinal' />
+            <column caption='Year Season' datatype='string' name='[year_season]' role='dimension' type='nominal' />
+            <column-instance column='[year]' derivation='Year' name='[yr:year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='font-size' data-class='total' field='[federated.1n4erwj16cumm614brvjl0hiric7].[yr:year:ok]' value='16' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='font-size' value='10' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1n4erwj16cumm614brvjl0hiric7].[none:season_order:ok]' value='false' />
+            <format attr='font-size' field='[federated.1n4erwj16cumm614brvjl0hiric7].[yr:year:ok]' value='16' />
+            <format attr='font-weight' field='[federated.1n4erwj16cumm614brvjl0hiric7].[yr:year:ok]' value='bold' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='axis-title'>
+            <format attr='font-size' field='[federated.1n4erwj16cumm614brvjl0hiric7].[none:total_revenue:qk]' value='26' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1n4erwj16cumm614brvjl0hiric7].[yr:year:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1n4erwj16cumm614brvjl0hiric7].[none:total_revenue:qk]</rows>
+        <cols>([federated.1n4erwj16cumm614brvjl0hiric7].[yr:year:ok] / ([federated.1n4erwj16cumm614brvjl0hiric7].[none:season_order:ok] / [federated.1n4erwj16cumm614brvjl0hiric7].[none:year_season:nk]))</cols>
+      </table>
+      <simple-id uuid='{775381A3-25D8-4277-8502-4BA41BD463E1}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='5' param='[federated.1n4erwj16cumm614brvjl0hiric7].[yr:year:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1n4erwj16cumm614brvjl0hiric7].[none:season_order:ok]</field>
+            <field>[federated.1n4erwj16cumm614brvjl0hiric7].[none:total_revenue:ok]</field>
+            <field>[federated.1n4erwj16cumm614brvjl0hiric7].[none:year_season:nk]</field>
+            <field>[federated.1n4erwj16cumm614brvjl0hiric7].[yr:year:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BA0FD411-F743-42AF-A03A-46B405E0ECD6}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
