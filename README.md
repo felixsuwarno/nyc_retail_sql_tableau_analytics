@@ -156,7 +156,7 @@ The business is heavily dependent on Q4 and should encourage off-season purchase
 ### **2. Month-over-Month (MoM) Change**
 
 **Key Metrics:**  
-Month Over Month revenue change.
+- Month Over Month revenue change.
 
 <p align="center">
   <img src="images/Tableau 02 - Revenue MoM Change.png" width="85%">
@@ -192,6 +192,13 @@ Growth is retention-driven. Acquisition is too small relative to total revenue a
 
 ### **4. Seasonality (High / Low Months)**
 
+Key metrics:
+- Revenue by Seasons
+
+<p align="center">
+  <img src="images/Tableau 04 - Revenue by Season.png" width="85%">
+</p>
+
 Fall and Winter consistently produce the highest revenue each year.  
 Spring and Summer lag behind, with Summer typically the weakest season.
 
@@ -203,6 +210,13 @@ NorthStar must plan for strong seasonality and focus on stabilizing demand in th
 
 ### **5. Holiday & Event-Driven Revenue**
 
+Key metrics:
+-Revenue by US Holidays and Multicultural Holidays
+
+<p align="center">
+  <img src="images/Tableau 05 - Revenue by Holidays.png" width="85%">
+</p>
+
 Christmas season delivers the single largest revenue spike each year, followed by the Thanksgiving → Black Friday → Cyber Monday period.  
 Multicultural NYC events (Diwali, Lunar New Year, Eid) generate smaller but reliable boosts.
 
@@ -213,6 +227,14 @@ U.S. retail holidays dominate the demand curve, while multicultural events offer
 ---
 
 ### **6. Channel Patterns**
+
+Key metrics :
+- Revenue VS Order Count by Sales Channel ( Quarterly )
+
+<p align="center">
+  <img src="images/Tableau 06a - Revenue VS Order Count by Sales Channel Quarterly .png" width="85%">
+  <img src="images/Tableau 06b - Growth of Sales Channel .png" width="85%">
+</p>
 
 **Online** is the fastest-growing and highest-revenue channel.  
 **Store** remains large but shows slower growth.  
