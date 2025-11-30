@@ -1,0 +1,35 @@
+WITH base_holiday_table AS (
+    SELECT
+        DATE_TRUNC('YEAR',o.order_date)::date AS year,
+		(TO_CHAR(o.order_date,'YYYY') || ' ' || cal.season ) AS year_season,
+		(
+			CASE
+				WHEN season = 'Winter' THEN 1
+				WHEN season = 'Spring' THEN 2
+				WHEN season = 'Summer' THEN 3
+				WHEN season = 'Fall'   THEN 4
+			END
+		) AS season_order,
+		oi.line_revenue
+
+    FROM orders o
+    JOIN order_items oi
+        ON oi.order_id = o.order_id
+    JOIN calendar cal
+        ON o.order_date = cal.date
+    WHERE o.order_status = 'Completed'
+	ORDER by order_date
+)
+
+SELECT 
+	year,
+	season_order,
+	year_season,
+	SUM(line_revenue) AS total_revenue
+FROM base_holiday_table
+GROUP BY year,season_order, year_season
+ORDER BY year ASC, season_order ASC
+
+
+
+
