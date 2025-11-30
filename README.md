@@ -136,7 +136,13 @@ Below are the seven business questions analyzed using SQL + Tableau.
 </p>
 
 NorthStar shows strong seasonality: revenue peaks every November–December and drops in January–February.  
-The 6-month rolling average trends upward from **$3.9M → $5.8M**, indicating stable long-term growth.  
+The 6-month rolling average trends upward from **$3.9M → $5.8M**, indicating stable long-term growth. 
+
+<br><br>
+<p align="center">
+  <img src="images/Tableau 01b - Customer vs Order Count.png" width="85%">
+</p>
+
 Customer count and order volume follow the same pattern, rising gradually across five years.  
 Order frequency per active customer stays almost constant.
 
@@ -149,6 +155,13 @@ The business is heavily dependent on Q4 and should encourage off-season purchase
 
 ### **2. Month-over-Month (MoM) Change**
 
+**Key Metrics:**  
+Month Over Month revenue change.
+
+<p align="center">
+  <img src="images/Tableau 02 - Revenue MoM Change.png" width="85%">
+</p>
+
 MoM results show heavy seasonality: revenue spikes every November–December and then drops **50–70%** in January.  
 Outside holiday periods, MoM growth is small and volatile.
 
@@ -159,6 +172,14 @@ Short-term momentum is inconsistent outside Q4, making the business highly depen
 ---
 
 ### **3. New vs Returning Customers**
+
+**Key Metrics:**  
+- Revenue from new customers vs Revenue from repeat customers
+
+<p align="center">
+  <img src="images/Tableau 03 - Revenue from New VS Returning Customer Monthly.png" width="85%">
+</p>
+
 
 Repeat customers generate the majority of revenue, while revenue from first-time customers declines over time.  
 Holiday peaks are driven almost entirely by returning customers.
