@@ -100,8 +100,6 @@ Enables: LTV, retention, KPIs, seasonal uplift, category performance, and time-s
 
 - **PostgreSQL** — window functions, joins, aggregations  
 - **Tableau Public** — dashboards, KPI charts  
-- **dbdiagram.io** — ERD & star-schema modeling  
-- **Excel / Google Sheets** — QA & exploration  
 
 <br><br>
 ---
