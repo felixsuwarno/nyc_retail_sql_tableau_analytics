@@ -4,7 +4,7 @@ A 5-year retail analytics case study using PostgreSQL + Tableau, modeling revenu
 
 # NorthStar NYC Retail — 5-Year Customer & Sales Analytics (PostgreSQL and Tableau visualization)
 
-
+<br><br>
 ---
 
 ## 1. Project Overview
@@ -28,7 +28,7 @@ The goal is to demonstrate real-world SQL analytics workflows, including:
 
 All data is synthetic but designed to behave like real NYC retail patterns — including holiday spikes and multicultural demand cycles.
 
-
+<br><br>
 ---
 
 ## 2. Business Scenario
@@ -57,7 +57,7 @@ Electronics, Home, Grocery, Clothing, Beauty, Sports, Toys, Office, Baby.
 The dataset covers 2020–2024 and includes both U.S. and multicultural NYC seasonal effects:  
 **Thanksgiving, Black Friday → Cyber Monday, Christmas season, Diwali, Lunar New Year, Eid**, federal holidays, and back-to-school.
 
-
+<br><br>
 ---
 
 ## 3. Data Model (Star Schema)
@@ -75,7 +75,7 @@ Includes: `order_id`, `customer_id`, `order_date`, `sales_channel`, `order_statu
 **products:** `product_id`, category, subcategory, unit_cost, list_price  
 **dim_calendar:** date, Y/M/Q, seasons, holidays, fiscal fields
 
-
+<br><br>
 ---
 
 ## 4. Schema Summary
@@ -89,7 +89,7 @@ dim_calendar (dim)
 
 Enables: LTV, retention, KPIs, seasonal uplift, category performance, and time-series analysis through window functions.
 
-
+<br><br>
 ---
 ## 5. Tech Stack
 
@@ -98,7 +98,7 @@ Enables: LTV, retention, KPIs, seasonal uplift, category performance, and time-s
 - **dbdiagram.io** — ERD & star-schema modeling  
 - **Excel / Google Sheets** — QA & exploration  
 
-
+<br><br>
 ---
 
 ## 6. Skills Demonstrated
@@ -114,7 +114,7 @@ Enables: LTV, retention, KPIs, seasonal uplift, category performance, and time-s
 - SQL performance tuning  
 - Data storytelling for business stakeholders  
 
-
+<br><br>
 ---
 
 ## 7. Business Questions & Insights
@@ -137,7 +137,7 @@ Order frequency per active customer stays almost constant.
 Growth comes mainly from **more customers**, not more purchases per customer.  
 The business is heavily dependent on Q4 and should encourage off-season purchases to reduce seasonal risk.
 
-
+<br><br>
 ---
 
 ### **2. Month-over-Month (MoM) Change**
@@ -148,7 +148,7 @@ Outside holiday periods, MoM growth is small and volatile.
 **Overall:**  
 Short-term momentum is inconsistent outside Q4, making the business highly dependent on holiday performance.
 
-
+<br><br>
 ---
 
 ### **3. New vs Returning Customers**
@@ -159,7 +159,7 @@ Holiday peaks are driven almost entirely by returning customers.
 **Overall:**  
 Growth is retention-driven. Acquisition is too small relative to total revenue and needs reinforcement.
 
-
+<br><br>
 ---
 
 ### **4. Seasonality (High / Low Months)**
@@ -170,7 +170,7 @@ Spring and Summer lag behind, with Summer typically the weakest season.
 **Overall:**  
 NorthStar must plan for strong seasonality and focus on stabilizing demand in the first half of the year.
 
-
+<br><br>
 ---
 
 ### **5. Holiday & Event-Driven Revenue**
@@ -181,7 +181,7 @@ Multicultural NYC events (Diwali, Lunar New Year, Eid) generate smaller but reli
 **Overall:**  
 U.S. retail holidays dominate the demand curve, while multicultural events offer steady but secondary uplift.
 
-
+<br><br>
 ---
 
 ### **6. Channel Patterns**
@@ -193,7 +193,7 @@ U.S. retail holidays dominate the demand curve, while multicultural events offer
 **Overall:**  
 NorthStar’s channel mix is shifting toward an online-first model, requiring continued investment in digital experience and fulfillment.
 
-
+<br><br>
 ---
 
 ### **7. Profit & Margin Quality Analysis**
@@ -211,9 +211,8 @@ Margin insights show both strengths and vulnerabilities:
 Margins are strong but concentrated and sensitive to inventory mistakes.  
 NorthStar must manage Q2–Q3 inventory more carefully and reduce reliance on markdown-heavy Q4 performance.
 
-
+<br><br>
 ---
-
 
 
 # 8. Business Recommendations
