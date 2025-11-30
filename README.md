@@ -86,8 +86,7 @@ dim_calendar (dim)
 Enables: LTV, retention, KPIs, seasonal uplift, category performance, and time-series analysis through window functions.
 
 ---
-
-# ⭐ 5. Tech Stack
+## ⭐ 5. Tech Stack
 
 - **PostgreSQL** — window functions, joins, aggregations  
 - **Tableau Public** — dashboards, KPI charts  
@@ -96,7 +95,7 @@ Enables: LTV, retention, KPIs, seasonal uplift, category performance, and time-s
 
 ---
 
-# ⭐ 6. Skills Demonstrated
+## ⭐ 6. Skills Demonstrated
 
 - SQL window functions (LAG, LEAD, rolling averages)  
 - MoM, QoQ, Y/Y trend analysis  
@@ -111,65 +110,7 @@ Enables: LTV, retention, KPIs, seasonal uplift, category performance, and time-s
 
 ---
 
-# 7. Business Questions & Insights
-
----
-
-## 1. Monthly Revenue, Customers, and Orders (2020–2024)
-
-Revenue peaks every November–December and drops sharply in January–February.  
-After smoothing with a 6-month rolling average, revenue grows from **$3.9M → $5.8M**, showing clear long-term momentum.  
-Customer count and orders follow the same pattern, rising steadily with nearly constant order frequency per customer.
-
-**Overall:** Growth comes from **more customers**, not more frequent purchases. Heavy Q4 dependence remains a key risk.
-
----
-
-## 2. Month-over-Month (MoM) Change
-
-MoM growth is extremely seasonal: large spikes in Nov–Dec, followed by 50–70% declines in January.  
-Outside holidays, MoM changes fluctuate in small, inconsistent ranges.
-
-**Overall:** Short-term momentum is uneven outside Q4, underscoring reliance on seasonal demand.
-
----
-
-## 3. New vs Returning Customers
-
-Returning customers generate most revenue, and new-customer revenue declines over time.  
-Holiday peaks come almost entirely from repeat buyers.
-
-**Overall:** Retention is strong, but acquisition is weak relative to revenue scale.
-
----
-
-## 4. Seasonality (High / Low Months)
-
-Fall and Winter consistently deliver the highest revenue.  
-Spring and Summer are significantly weaker, especially June–August.
-
-**Overall:** NorthStar must stabilize performance in the first half of the year.
-
----
-
-## 5. Holiday & Multicultural Event Revenue
-
-Christmas season is the largest driver, followed by Thanksgiving → Cyber Monday.  
-Diwali, Lunar New Year, and Eid generate reliable secondary boosts.
-
-**Overall:** U.S. retail holidays dominate, while multicultural NYC events offer smaller but stable uplift opportunities.
-
----
-
-## 6. Channel Patterns
-
-**Online** is the fastest-growing and highest-revenue channel.  
-**Store** remains large and stable.  
-**Pickup** and **Delivery** are small and flat, contributing little profit.
-
-**Overall:** NorthStar is shifting toward an online-first model; omnichannel experience needs continued investment.
-
----
+## 7. Business Questions & Insights
 
 ## 7. Profit & Margin Quality Analysis
 
