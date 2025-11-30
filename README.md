@@ -71,9 +71,14 @@ Includes: `order_id`, `customer_id`, `order_date`, `sales_channel`, `order_statu
 
 ### Dimensions
 
-**customers:** `customer_id`, region, segment, signup_date  
-**products:** `product_id`, category, subcategory, unit_cost, list_price  
-**dim_calendar:** date, Y/M/Q, seasons, holidays, fiscal fields
+**customers:** 
+`customer_id`, region, segment, signup_date  
+
+**products:** 
+`product_id`, category, subcategory, unit_cost, list_price  
+
+**dim_calendar:** 
+date, Y/M/Q, seasons, holidays, fiscal fields
 
 <br><br>
 ---
