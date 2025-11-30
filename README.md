@@ -59,14 +59,14 @@ The dataset covers 2020–2024 and includes both U.S. and multicultural NYC seas
 
 ## 3. Data Model (Star Schema)
 
-### ⭐ Fact Table — order_items (line-item fact)  
+### Fact Table — order_items (line-item fact)  
 One row per SKU per order.  
 Includes: `order_item_id`, `order_id`, `product_id`, `quantity`, `list_price`, `discount_pct`, `net_price`, `line_revenue`.
 
-### ⭐ Associated Fact — orders (header)  
+### Associated Fact — orders (header)  
 Includes: `order_id`, `customer_id`, `order_date`, `sales_channel`, `order_status`.
 
-### ⭐ Dimensions
+### Dimensions
 
 **customers:** `customer_id`, region, segment, signup_date  
 **products:** `product_id`, category, subcategory, unit_cost, list_price  
@@ -86,7 +86,7 @@ dim_calendar (dim)
 Enables: LTV, retention, KPIs, seasonal uplift, category performance, and time-series analysis through window functions.
 
 ---
-## ⭐ 5. Tech Stack
+## 5. Tech Stack
 
 - **PostgreSQL** — window functions, joins, aggregations  
 - **Tableau Public** — dashboards, KPI charts  
@@ -95,7 +95,7 @@ Enables: LTV, retention, KPIs, seasonal uplift, category performance, and time-s
 
 ---
 
-## ⭐ 6. Skills Demonstrated
+## 6. Skills Demonstrated
 
 - SQL window functions (LAG, LEAD, rolling averages)  
 - MoM, QoQ, Y/Y trend analysis  
@@ -112,25 +112,97 @@ Enables: LTV, retention, KPIs, seasonal uplift, category performance, and time-s
 
 ## 7. Business Questions & Insights
 
-## 7. Profit & Margin Quality Analysis
 
-- **High-margin categories drive most profit.**  
-  Clothing, Beauty, Toys, Sports show strong margin contribution; Grocery, Office, Home remain small and flat.
-
-- **Holiday profits rely heavily on discounting.**  
-  In December 2023–2024, discounted revenue spikes while full-price revenue drops — clear signal of **inventory pressure earlier in the year** (overestimation, late shipments, or macro slowdowns).
-
-- **Online is the primary profit engine**, outpacing Store and far exceeding Pickup/Delivery.
-
-- **Pickup/Delivery remain low-margin and stagnant.**  
-  Useful for convenience but not margin-accretive.
-
-- **Profit is overwhelmingly Consumer-driven.**  
-  SMB/Enterprise segments produce minimal incremental profit.
-
-**Overall:** Margin quality is strong but concentrated and exposed to inventory risks and seasonal discount dependence.
+Below are the seven business questions analyzed using SQL + Tableau.
 
 ---
+
+### **1. Monthly Revenue, Customer, and Order Trends (2020–2024)**
+
+**Key Metrics:**  
+- Monthly Revenue vs 6-Month Rolling Average  
+- Monthly Orders vs Monthly Active Customers  
+
+NorthStar shows strong seasonality: revenue peaks every November–December and drops in January–February.  
+The 6-month rolling average trends upward from **$3.9M → $5.8M**, indicating stable long-term growth.  
+Customer count and order volume follow the same pattern, rising gradually across five years.  
+Order frequency per active customer stays almost constant.
+
+**Overall:**  
+Growth comes mainly from **more customers**, not more purchases per customer.  
+The business is heavily dependent on Q4 and should encourage off-season purchases to reduce seasonal risk.
+
+---
+
+### **2. Month-over-Month (MoM) Change**
+
+MoM results show heavy seasonality: revenue spikes every November–December and then drops **50–70%** in January.  
+Outside holiday periods, MoM growth is small and volatile.
+
+**Overall:**  
+Short-term momentum is inconsistent outside Q4, making the business highly dependent on holiday performance.
+
+---
+
+### **3. New vs Returning Customers**
+
+Repeat customers generate the majority of revenue, while revenue from first-time customers declines over time.  
+Holiday peaks are driven almost entirely by returning customers.
+
+**Overall:**  
+Growth is retention-driven. Acquisition is too small relative to total revenue and needs reinforcement.
+
+---
+
+### **4. Seasonality (High / Low Months)**
+
+Fall and Winter consistently produce the highest revenue each year.  
+Spring and Summer lag behind, with Summer typically the weakest season.
+
+**Overall:**  
+NorthStar must plan for strong seasonality and focus on stabilizing demand in the first half of the year.
+
+---
+
+### **5. Holiday & Event-Driven Revenue**
+
+Christmas season delivers the single largest revenue spike each year, followed by the Thanksgiving → Black Friday → Cyber Monday period.  
+Multicultural NYC events (Diwali, Lunar New Year, Eid) generate smaller but reliable boosts.
+
+**Overall:**  
+U.S. retail holidays dominate the demand curve, while multicultural events offer steady but secondary uplift.
+
+---
+
+### **6. Channel Patterns**
+
+**Online** is the fastest-growing and highest-revenue channel.  
+**Store** remains large but shows slower growth.  
+**Pickup** and **Delivery** remain small and mostly flat.
+
+**Overall:**  
+NorthStar’s channel mix is shifting toward an online-first model, requiring continued investment in digital experience and fulfillment.
+
+---
+
+### **7. Profit & Margin Quality Analysis**
+
+Margin insights show both strengths and vulnerabilities:
+
+- High-margin categories drive most profit: **Clothing, Beauty, Toys, Sports**  
+- Low-margin categories remain flat: **Grocery, Office, Home**  
+- Q4 profits rely heavily on discounting: December 2023–2024 show large discount spikes and weaker full-price revenue → indicates inventory pressure earlier in the year  
+- **Online** is the core profit engine, outpacing Store, Pickup, Delivery  
+- Pickup/Delivery contribute little profit and remain margin-stagnant  
+- Profit is overwhelmingly **Consumer-driven**; SMB/Enterprise play a minimal role  
+
+**Overall:**  
+Margins are strong but concentrated and sensitive to inventory mistakes.  
+NorthStar must manage Q2–Q3 inventory more carefully and reduce reliance on markdown-heavy Q4 performance.
+
+---
+
+
 
 # 8. Business Recommendations
 
