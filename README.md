@@ -129,7 +129,11 @@ Below are the seven business questions analyzed using SQL + Tableau.
 
 **Key Metrics:**  
 - Monthly Revenue vs 6-Month Rolling Average  
-- Monthly Orders vs Monthly Active Customers  
+- Monthly Orders vs Monthly Active Customers
+
+<p align="center">
+  <img src="images/Tableau 01a - Revenue Total Monthly .png" width="85%">
+</p>
 
 NorthStar shows strong seasonality: revenue peaks every November–December and drops in January–February.  
 The 6-month rolling average trends upward from **$3.9M → $5.8M**, indicating stable long-term growth.  
