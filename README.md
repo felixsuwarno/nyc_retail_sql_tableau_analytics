@@ -2,7 +2,7 @@
 A 5-year retail analytics case study using PostgreSQL + Tableau, modeling revenue, customers, profitability, and seasonality for a fictitious NYC-based omnichannel retailer (NorthStar).
 
 
-# NorthStar NYC Retail — 5-Year Customer & Sales Analytics (PostgreSQL)
+# NorthStar NYC Retail — 5-Year Customer & Sales Analytics (PostgreSQL and Tableau visualization)
 
 ---
 
