@@ -153,8 +153,8 @@ Order frequency per active customer stays almost constant.
 </p>
 
 Q4 profits rely heavily on discounting: 
-December 2023–2024 show large discount spikes and weaker full-price revenue.
-This may indicate inventory pressure earlier in the year which necessitates
+Every November and December each year show large discount spikes and weaker full-price revenue.
+This may indicate inventory pressure earlier in the year which necessitate
 heavy discounting to purge them out of inventory before holiday season is over.
 
 **Overall:**  
