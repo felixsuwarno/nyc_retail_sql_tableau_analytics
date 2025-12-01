@@ -211,7 +211,7 @@ Key metrics:
 </p>
 
 Fall and Winter consistently produce the highest revenue each year.  
-Spring and Summer lag behind, with Summer typically the weakest season.
+Spring and Summer lag behind, with Spring typically the weakest season.
 
 **Overall:**  
 NorthStar must plan for strong seasonality and focus on stabilizing demand in the first half of the year.
