@@ -260,8 +260,8 @@ Key metrics :
 - Revenue VS Order Count by Sales Channel ( Quarterly )
 
 <p align="center">
-  <img src="images/Tableau 06a - Revenue VS Order Count by Sales Channel Quarterly .png" width="85%">
-  <img src="images/Tableau 06b - Growth of Sales Channel .png" width="85%">
+  <img src="images/Tableau 07a - Revenue VS Order Count by Sales Channel Quarterly .png" width="85%">
+  <img src="images/Tableau 07b - Growth of Sales Channel .png" width="85%">
 </p>
 
 **Online** is the fastest-growing and highest-revenue channel. It is the core profit engine, outpacing the other channels.
