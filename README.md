@@ -242,10 +242,9 @@ Key metrics :
   <img src="images/Tableau 07b - Growth of Sales Channel .png" width="85%">
 </p>
 
-**Online** is the fastest-growing and highest-revenue channel. It is the core profit engine, outpacing the other channels.
-**Store** remains large but shows slower growth.  
-**Pickup** and **Delivery** remain small and mostly flat.
-
+**Online** shows the strongest and fastest growth, with revenue and orders rising sharply each year and spiking every Q4.
+**Store** is the second-largest contributor, showing reliable seasonal surges.
+**Pickup** and **Delivery** remain low-volume channels, they contribute modest revenue with minimal long-term growth and limited seasonal lift.
 
 <br><br>
 ---
