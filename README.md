@@ -146,6 +146,12 @@ The 6-month rolling average trends upward from **$3.9M → $5.8M**, indicating s
 
 Customer count and order volume follow the same pattern, rising gradually across five years.  
 Order frequency per active customer stays almost constant.
+Growth comes mainly from **more customers**, not more purchases per customer.  
+
+**Overall:** 
+- The business is heavily dependent on Q4 and should encourage off-season purchases to reduce seasonal risk.
+- NorthStar must manage Q2–Q3 inventory more carefully and reduce reliance on markdown-heavy Q4 performance.
+- Avoid “panic markdowns” in December by starting earlier markdown cadence for slow movers.
 
 <br><br>
 <p align="center">
@@ -157,11 +163,9 @@ Every November and December each year show large discount spikes and weaker full
 This may indicate inventory pressure earlier in the year which necessitate
 heavy discounting to purge them out of inventory before holiday season is over.
 
-**Overall:**  
-Growth comes mainly from **more customers**, not more purchases per customer.  
-The business is heavily dependent on Q4 and should encourage off-season purchases to reduce seasonal risk.
-Margins are strong but concentrated and sensitive to inventory mistakes.  
-NorthStar must manage Q2–Q3 inventory more carefully and reduce reliance on markdown-heavy Q4 performance.
+**Overall:** 
+- Shift from blanket discounts to targeted, data-driven promos.
+- Test discount depth to identify optimal markdown levels by category.
 
 <br><br>
 ---
@@ -221,8 +225,11 @@ Fall and Winter consistently produce the highest revenue each year.
 Spring and Summer lag behind, with Spring typically the weakest season.
 
 **Overall:**  
-NorthStar must plan for strong seasonality and focus on stabilizing demand in the first half of the year.
-
+- NorthStar must plan for strong seasonality and focus on stabilizing demand in the first half of the year.
+- Tighten Q2–Q3 demand forecasting.
+- Add mid-season forecast checkpoints.
+- Classify high-risk SKUs and markdown earlier instead of waiting for Q4.
+  
 <br><br>
 ---
 
@@ -259,9 +266,9 @@ Key metrics :
 **Pickup** and **Delivery** remain small and mostly flat.
 
 **Overall:**  
-NorthStar’s channel mix is shifting toward an online-first model, requiring continued investment in digital experience and fulfillment.
-Continue heavy investment in Online (core revenue + profit engine).
-Reevaluate Pickup/Delivery economics; adjust thresholds and fees.
+- NorthStar’s channel mix is shifting toward an online-first model, requiring continued investment in digital experience and fulfillment.
+- Continue heavy investment in Online (core revenue + profit engine).
+- Reevaluate Pickup/Delivery economics; adjust thresholds and fees.
 
 <br><br>
 
@@ -277,7 +284,8 @@ Key metrics:
   <img src="images/Tableau 07a - Gross Profit by Category.png" width="85%">
 </p>
 
-Margin insights show both strengths and vulnerabilities:
+Margins are strong but concentrated and sensitive to inventory mistakes.  
+The data show both strengths and vulnerabilities:
 
 - High-margin categories drive most profit: **Clothing, Beauty, Toys, Sports**  
 - Low-margin categories remain flat: **Grocery, Office, Home**
@@ -285,6 +293,8 @@ Margin insights show both strengths and vulnerabilities:
 **Overall:**  
 - Invest more in high-margin categories (Clothing, Beauty, Toys, Sports) to maximize profit growth.
 - Improve efficiency in low-margin categories (Grocery, Office, Home) via vendor negotiation, pricing adjustments, or SKU reduction.
+- Adjust or reposition weak categories (Grocery, Office, Home).
+- Build curated bundles mixing high- and low-margin items.
 
 <br><br>
 <p align="center">
