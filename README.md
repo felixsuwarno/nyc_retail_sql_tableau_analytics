@@ -142,6 +142,18 @@ Below are the seven business questions analyzed using SQL + Tableau.
 NorthStar shows strong seasonality: revenue peaks every November–December and drops in January–February.  
 The 6-month rolling average trends upward from **$4.1M → $5.2M**, indicating stable long-term growth. 
 
+**Recommendation:**  
+- <b>Leverage Q4 Peaks:</b> 
+  Revenue and customers surge every November–December. Increase marketing spend, inventory, and campaign intensity going into Q4.
+- <b>Fix Q1 Drop-Off:</b> 
+  Large demand decline occurs every January–February. Launch retention campaigns and incentives to convert holiday shoppers into repeat buyers.
+- <b>Sustain Growth Channels:</b> 
+  The 6-month rolling average trends upward (≈$4.1M → $5.2M). Continue investing in acquisition + loyalty programs.
+- <b>Boost Orders per Customer:</b> 
+  Customer count and order count grow together, showing stable behavior but limited order-per-customer improvement. Add cross-sell/upsell strategies.
+- <b>Plan with Seasonality:</b> 
+  Highly predictable yearly cycles support more accurate forecasting and smarter inventory + staffing allocation.
+
 <br><br>
 ---
 
