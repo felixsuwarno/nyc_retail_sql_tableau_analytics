@@ -255,15 +255,36 @@ Key metrics :
 NorthStar’s channel mix is shifting toward an online-first model, requiring continued investment in digital experience and fulfillment.
 
 <br><br>
----
+
 
 ### **7. Profit & Margin Quality Analysis**
+
+Key metrics:
+- Annual Gross Profit by each category
+- Annual Gross Profit by each sales channel
+- Annual Gross Profit by each customer segment
+
+<p align="center">
+  <img src="images/Tableau 07a - Gross Profit by Category.png" width="85%">
+</p>
 
 Margin insights show both strengths and vulnerabilities:
 
 - High-margin categories drive most profit: **Clothing, Beauty, Toys, Sports**  
-- Low-margin categories remain flat: **Grocery, Office, Home**   
+- Low-margin categories remain flat: **Grocery, Office, Home**
+
+<br><br>
+<p align="center">
+  <img src="images/Tableau 07b - Profit per Sales Channel .png" width="85%">
+</p>
+
 - Pickup/Delivery contribute little profit and remain margin-stagnant  
+
+<br><br>
+<p align="center">
+  <img src="images/Tableau 07c - Profit per Customer Segment .png" width="85%">
+</p>
+
 - Profit is overwhelmingly **Consumer-driven**; SMB/Enterprise play a minimal role  
 
 **Overall:**  
