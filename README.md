@@ -129,7 +129,8 @@ Below are the seven business questions analyzed using SQL + Tableau.
 
 **Key Metrics:**  
 - Monthly Revenue vs 6-Month Rolling Average  
-- Monthly Orders vs Monthly Active Customers
+- Monthly Order Count vs Monthly Active Customers
+- Monthly Revenue from items purchased at Full Price VS Discounted Price
 
 <p align="center">
   <img src="images/Tableau 01a - Revenue Total Monthly .png" width="85%">
@@ -150,9 +151,11 @@ Order frequency per active customer stays almost constant.
 <p align="center">
   <img src="images/Tableau 01c - Discount vs Full Price Revenue .png" width="85%">
 </p>
+
 Q4 profits rely heavily on discounting: 
 December 2023–2024 show large discount spikes and weaker full-price revenue.
-This indicates inventory pressure earlier in the year  
+This may indicate inventory pressure earlier in the year which necessitates
+heavy discounting to purge them out of inventory before holiday season is over.
 
 **Overall:**  
 Growth comes mainly from **more customers**, not more purchases per customer.  
