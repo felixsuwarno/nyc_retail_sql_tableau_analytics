@@ -287,9 +287,9 @@ Key metrics:
   <img src="images/Tableau 08a - Gross Profit by Category.png" width="85%">
 </p>
 
-Margins are strong but concentrated and sensitive to inventory mistakes.  
-The data show both strengths and vulnerabilities:
+Margins are strong but concentrated and sensitive to inventory mistakes. 
 
+The data show both strengths and vulnerabilities:
 - High-margin categories drive most profit: **Clothing, Beauty, Toys, Sports**  
 - Low-margin categories remain flat: **Grocery, Office, Home**
 
@@ -304,7 +304,7 @@ The data show both strengths and vulnerabilities:
   <img src="images/Tableau 08b - Profit per Sales Channel .png" width="85%">
 </p>
 
-- Pickup/Delivery contribute little profit and remain margin-stagnant
+Pickup/Delivery contribute little profit and remain margin-stagnant.
   
 **Recommendation:** 
 - Expand and optimize Online + Store channels, which deliver the strongest profitability.
@@ -315,7 +315,7 @@ The data show both strengths and vulnerabilities:
   <img src="images/Tableau 08c - Profit per Customer Segment .png" width="85%">
 </p>
 
-- Profit is overwhelmingly **Consumer-driven**; SMB/Enterprise play a minimal role  
+Profit is overwhelmingly **Consumer-driven**; SMB/Enterprise play a minimal role .
 
 **Recommendation:**  
 - Focus marketing and loyalty programs on Consumer customers, the primary profit source.
