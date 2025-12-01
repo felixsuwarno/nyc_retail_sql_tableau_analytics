@@ -136,6 +136,10 @@ Below are the seven business questions analyzed using SQL + Tableau.
   <img src="images/Tableau 01a - Revenue Total Monthly .png" width="85%">
 </p>
 
+<p align="center">
+  <img src="images/Tableau 01b - Customer vs Order Count.png" width="85%">
+</p>
+
 NorthStar shows strong seasonality: revenue peaks every November–December and drops in January–February.  
 The 6-month rolling average trends upward from **$3.9M → $5.8M**, indicating stable long-term growth. 
 
@@ -146,7 +150,7 @@ The 6-month rolling average trends upward from **$3.9M → $5.8M**, indicating s
 - Monthly Revenue from items purchased at Full Price VS Discounted Price
 <br><br>
 <p align="center">
-  <img src="images/Tableau 01b - Customer vs Order Count.png" width="85%">
+  <img src="images/Tableau 02 - Discount vs Full Price Revenue .png" width="85%">
 </p>
 
 Customer count and order volume follow the same pattern, rising gradually across five years.  
@@ -172,13 +176,13 @@ heavy discounting to purge them out of inventory before holiday season is over.
 <br><br>
 ---
 
-### **2. Month-over-Month (MoM) Change**
+### **3. Month-over-Month (MoM) Change**
 
 **Key Metrics:**  
 - Month Over Month revenue change.
 
 <p align="center">
-  <img src="images/Tableau 02 - Revenue MoM Change.png" width="85%">
+  <img src="images/Tableau 03 - Revenue MoM Change.png" width="85%">
 </p>
 
 MoM results show heavy seasonality: revenue spikes every November–December and then drops **50–70%** in January.  
@@ -194,13 +198,13 @@ Short-term momentum is inconsistent outside Q4, making the business highly depen
 <br><br>
 ---
 
-### **3. New vs Returning Customers**
+### **4. New vs Returning Customers**
 
 **Key Metrics:**  
 - Revenue from new customers vs Revenue from repeat customers
 
 <p align="center">
-  <img src="images/Tableau 03 - Revenue from New VS Returning Customer Monthly.png" width="85%">
+  <img src="images/Tableau 04 - Revenue from New VS Returning Customer Monthly.png" width="85%">
 </p>
 
 Growth is retention-driven, new customer acquisition is too small relative to total revenue and needs reinforcement.
@@ -215,13 +219,13 @@ Holiday peaks are driven almost entirely by returning customers.
 <br><br>
 ---
 
-### **4. Seasonality (High / Low Months)**
+### **5. Seasonality **
 
 Key metrics:
 - Revenue by Seasons
 
 <p align="center">
-  <img src="images/Tableau 04 - Revenue by Season.png" width="85%">
+  <img src="images/Tableau 05 - Revenue by Season.png" width="85%">
 </p>
 
 Fall and Winter consistently produce the highest revenue each year.  
@@ -242,7 +246,7 @@ Key metrics:
 -Revenue by US Holidays and Multicultural Holidays
 
 <p align="center">
-  <img src="images/Tableau 05 - Revenue by Holidays.png" width="85%">
+  <img src="images/Tableau 06 - Revenue by Holidays.png" width="85%">
 </p>
 
 Christmas season delivers the single largest revenue spike each year, followed by the Thanksgiving → Black Friday → Cyber Monday period.  
@@ -279,7 +283,7 @@ Key metrics :
 - Reevaluate Pickup/Delivery economics; adjust thresholds and fees.
 
 <br><br>
-
+---
 
 ### **8. Profit & Margin Quality Analysis**
 
