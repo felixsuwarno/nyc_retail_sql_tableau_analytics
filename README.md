@@ -166,25 +166,24 @@ The 6-month rolling average trends upward from **$4.1M → $5.2M**, indicating s
   <img src="images/Tableau 02 - Discount vs Full Price Revenue .png" width="85%">
 </p>
 
-Customer count and order volume follow the same pattern, rising gradually across five years.  
-Order frequency per active customer stays almost constant.
-Growth comes mainly from **more customers**, not more purchases per customer.  
+Both full-price and discounted-price revenue rise steadily over time, but during November–December the largest spikes come from discounted sales, 
+indicating that while full-price demand grows gradually throughout the year, the holiday surge is driven primarily by promotional pricing rather 
+than regular-price purchases.
 
 **Recommendation:**  
 
-<br><br>
-<p align="center">
-  <img src="images/Tableau 01c - Discount vs Full Price Revenue .png" width="85%">
-</p>
 
-Q4 profits rely heavily on discounting: 
-Every November and December each year show large discount spikes and weaker full-price revenue.
-This may indicate inventory pressure earlier in the year which necessitate
-heavy discounting to purge them out of inventory before holiday season is over.
-
-**Recommendation:**  
-- Shift from blanket discounts to targeted, data-driven promos.
-- Test discount depth to identify optimal markdown levels by category.
+- **Tighten inventory planning** <br>
+  to reduce excess stock that forces heavy Q4 discounting.
+  
+- **Shift more Q4 demand toward full-price items** <br>
+  through better merchandising and early-season product launches.
+  
+- **Use discounts more strategically**, <br>
+  focusing on slow-moving SKUs instead of broad sitewide markdowns.
+  
+- **Strengthen forecasting models** <br>
+  so procurement aligns with actual demand, reducing the need for deep holiday promotions.
 
 <br><br>
 ---
