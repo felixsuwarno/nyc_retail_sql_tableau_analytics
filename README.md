@@ -247,7 +247,7 @@ Key metrics :
   <img src="images/Tableau 06b - Growth of Sales Channel .png" width="85%">
 </p>
 
-**Online** is the fastest-growing and highest-revenue channel.  
+**Online** is the fastest-growing and highest-revenue channel. It is the core profit engine, outpacing the other channels.
 **Store** remains large but shows slower growth.  
 **Pickup** and **Delivery** remain small and mostly flat.
 
@@ -262,8 +262,7 @@ NorthStar’s channel mix is shifting toward an online-first model, requiring co
 Margin insights show both strengths and vulnerabilities:
 
 - High-margin categories drive most profit: **Clothing, Beauty, Toys, Sports**  
-- Low-margin categories remain flat: **Grocery, Office, Home**  
-- **Online** is the core profit engine, outpacing Store, Pickup, Delivery  
+- Low-margin categories remain flat: **Grocery, Office, Home**   
 - Pickup/Delivery contribute little profit and remain margin-stagnant  
 - Profit is overwhelmingly **Consumer-driven**; SMB/Enterprise play a minimal role  
 
