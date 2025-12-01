@@ -127,7 +127,7 @@ Below are the seven business questions analyzed using SQL + Tableau.
 
 ### **1. Monthly Revenue, Customer, and Order Trends (2020–2024)**
 
-
+**Key Metrics:**  
 - Monthly Revenue vs 6-Month Rolling Average  
 - Monthly Order Count vs Monthly Active Customers
 
@@ -139,7 +139,8 @@ Below are the seven business questions analyzed using SQL + Tableau.
 NorthStar shows strong seasonality: revenue peaks every November–December and drops in January–February.  
 The 6-month rolling average trends upward from **$3.9M → $5.8M**, indicating stable long-term growth. 
 
-### **2. Monthly Revenue, Customer, and Order Trends (2020–2024)**
+
+### **2. Impact of Full Price vs Discounted Price **
 
 **Key Metrics:**  
 - Monthly Revenue from items purchased at Full Price VS Discounted Price
@@ -153,9 +154,6 @@ Order frequency per active customer stays almost constant.
 Growth comes mainly from **more customers**, not more purchases per customer.  
 
 **Recommendation:**  
-- The business is heavily dependent on Q4 and should encourage off-season purchases to reduce seasonal risk.
-- NorthStar must manage Q2–Q3 inventory more carefully and reduce reliance on markdown-heavy Q4 performance.
-- Avoid “panic markdowns” in December by starting earlier markdown cadence for slow movers.
 
 <br><br>
 <p align="center">
@@ -238,7 +236,7 @@ Spring and Summer lag behind, with Spring typically the weakest season.
 <br><br>
 ---
 
-### **5. Holiday & Event-Driven Revenue**
+### **6. Holiday & Event-Driven Revenue**
 
 Key metrics:
 -Revenue by US Holidays and Multicultural Holidays
@@ -256,7 +254,7 @@ U.S. retail holidays dominate the demand curve, while multicultural events offer
 <br><br>
 ---
 
-### **6. Channel Patterns**
+### **7. Channel Patterns**
 
 Key metrics :
 - Revenue VS Order Count by Sales Channel ( Quarterly )
@@ -278,7 +276,7 @@ Key metrics :
 <br><br>
 
 
-### **7. Profit & Margin Quality Analysis**
+### **8. Profit & Margin Quality Analysis**
 
 Key metrics:
 - Annual Gross Profit by each category
