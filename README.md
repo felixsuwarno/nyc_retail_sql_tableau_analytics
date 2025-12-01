@@ -148,7 +148,7 @@ Customer count and order volume follow the same pattern, rising gradually across
 Order frequency per active customer stays almost constant.
 Growth comes mainly from **more customers**, not more purchases per customer.  
 
-**Overall:** 
+**Recommendation:**  
 - The business is heavily dependent on Q4 and should encourage off-season purchases to reduce seasonal risk.
 - NorthStar must manage Q2–Q3 inventory more carefully and reduce reliance on markdown-heavy Q4 performance.
 - Avoid “panic markdowns” in December by starting earlier markdown cadence for slow movers.
@@ -163,7 +163,7 @@ Every November and December each year show large discount spikes and weaker full
 This may indicate inventory pressure earlier in the year which necessitate
 heavy discounting to purge them out of inventory before holiday season is over.
 
-**Overall:** 
+**Recommendation:**  
 - Shift from blanket discounts to targeted, data-driven promos.
 - Test discount depth to identify optimal markdown levels by category.
 
@@ -181,12 +181,13 @@ heavy discounting to purge them out of inventory before holiday season is over.
 
 MoM results show heavy seasonality: revenue spikes every November–December and then drops **50–70%** in January.  
 Outside holiday periods, MoM growth is small and volatile.
-
-**Overall:**  
 Short-term momentum is inconsistent outside Q4, making the business highly dependent on holiday performance.
-Build stronger Q2–Q3 demand with targeted campaigns.
-Create NorthStar-branded “mini-peak” events outside holidays.
-Expand replenishment programs in Grocery, Beauty, and Baby.
+
+**Recommendation:**  
+
+- Build stronger Q2–Q3 demand with targeted campaigns.
+- Create NorthStar-branded “mini-peak” events outside holidays.
+- Expand replenishment programs in Grocery, Beauty, and Baby.
 
 <br><br>
 ---
@@ -200,14 +201,14 @@ Expand replenishment programs in Grocery, Beauty, and Baby.
   <img src="images/Tableau 03 - Revenue from New VS Returning Customer Monthly.png" width="85%">
 </p>
 
+Growth is retention-driven, new customer acquisition is too small relative to total revenue and needs reinforcement.
 Repeat customers generate the majority of revenue, while revenue from first-time customers declines over time.  
 Holiday peaks are driven almost entirely by returning customers.
 
-**Overall:**  
-Growth is retention-driven, new customer acquisition is too small relative to total revenue and needs reinforcement.
-Run new customers acquisition-focused campaigns in weak months, and improve onboarding to convert first-time 
-buyers into repeat buyers faster.
-Launch referral programs driven by loyal returning customers.
+**Recommendation:** 
+
+- Run new customers acquisition-focused campaigns in weak months, and improve onboarding to convert first-time buyers into repeat buyers faster.
+- Launch referral programs driven by loyal returning customers.
 
 <br><br>
 ---
@@ -224,7 +225,7 @@ Key metrics:
 Fall and Winter consistently produce the highest revenue each year.  
 Spring and Summer lag behind, with Spring typically the weakest season.
 
-**Overall:**  
+**Recommendation:** 
 - NorthStar must plan for strong seasonality and focus on stabilizing demand in the first half of the year.
 - Tighten Q2–Q3 demand forecasting.
 - Add mid-season forecast checkpoints.
@@ -245,7 +246,7 @@ Key metrics:
 Christmas season delivers the single largest revenue spike each year, followed by the Thanksgiving → Black Friday → Cyber Monday period.  
 Multicultural NYC events (Diwali, Lunar New Year, Eid) generate smaller but reliable boosts.
 
-**Overall:**  
+**Recommendation:** 
 U.S. retail holidays dominate the demand curve, while multicultural events offer steady but secondary uplift.
 
 <br><br>
@@ -265,7 +266,7 @@ Key metrics :
 **Store** remains large but shows slower growth.  
 **Pickup** and **Delivery** remain small and mostly flat.
 
-**Overall:**  
+**Recommendation:** 
 - NorthStar’s channel mix is shifting toward an online-first model, requiring continued investment in digital experience and fulfillment.
 - Continue heavy investment in Online (core revenue + profit engine).
 - Reevaluate Pickup/Delivery economics; adjust thresholds and fees.
@@ -290,7 +291,7 @@ The data show both strengths and vulnerabilities:
 - High-margin categories drive most profit: **Clothing, Beauty, Toys, Sports**  
 - Low-margin categories remain flat: **Grocery, Office, Home**
 
-**Overall:**  
+**Recommendation:** 
 - Invest more in high-margin categories (Clothing, Beauty, Toys, Sports) to maximize profit growth.
 - Improve efficiency in low-margin categories (Grocery, Office, Home) via vendor negotiation, pricing adjustments, or SKU reduction.
 - Adjust or reposition weak categories (Grocery, Office, Home).
@@ -302,8 +303,8 @@ The data show both strengths and vulnerabilities:
 </p>
 
 - Pickup/Delivery contribute little profit and remain margin-stagnant
-- 
-**Overall:**  
+  
+**Recommendation:** 
 - Expand and optimize Online + Store channels, which deliver the strongest profitability.
 - Restructure Pickup/Delivery operations to reduce costs or reposition them as convenience services.
   
@@ -314,7 +315,7 @@ The data show both strengths and vulnerabilities:
 
 - Profit is overwhelmingly **Consumer-driven**; SMB/Enterprise play a minimal role  
 
-**Overall:**  
+**Recommendation:**  
 - Focus marketing and loyalty programs on Consumer customers, the primary profit source.
 - Plan growth strategies around discretionary spending patterns, where the business consistently performs best.
 - Strengthen Consumer experience while exploring SMB/Enterprise expansion.
