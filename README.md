@@ -146,6 +146,14 @@ The 6-month rolling average trends upward from **$3.9M → $5.8M**, indicating s
 Customer count and order volume follow the same pattern, rising gradually across five years.  
 Order frequency per active customer stays almost constant.
 
+<br><br>
+<p align="center">
+  <img src="images/Tableau 01c - Discount vs Full Price Revenue .png" width="85%">
+</p>
+Q4 profits rely heavily on discounting: 
+December 2023–2024 show large discount spikes and weaker full-price revenue.
+This indicates inventory pressure earlier in the year  
+
 **Overall:**  
 Growth comes mainly from **more customers**, not more purchases per customer.  
 The business is heavily dependent on Q4 and should encourage off-season purchases to reduce seasonal risk.
@@ -252,7 +260,6 @@ Margin insights show both strengths and vulnerabilities:
 
 - High-margin categories drive most profit: **Clothing, Beauty, Toys, Sports**  
 - Low-margin categories remain flat: **Grocery, Office, Home**  
-- Q4 profits rely heavily on discounting: December 2023–2024 show large discount spikes and weaker full-price revenue → indicates inventory pressure earlier in the year  
 - **Online** is the core profit engine, outpacing Store, Pickup, Delivery  
 - Pickup/Delivery contribute little profit and remain margin-stagnant  
 - Profit is overwhelmingly **Consumer-driven**; SMB/Enterprise play a minimal role  
