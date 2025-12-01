@@ -261,6 +261,7 @@ Key metrics :
 
 <p align="center">
   <img src="images/Tableau 07a - Revenue VS Order Count by Sales Channel Quarterly .png" width="85%">
+  <br>
   <img src="images/Tableau 07b - Growth of Sales Channel .png" width="85%">
 </p>
 
