@@ -243,7 +243,9 @@ Key metrics :
 </p>
 
 **Online** shows the strongest and fastest growth, with revenue and orders rising sharply each year and spiking every Q4.
+
 **Store** is the second-largest contributor, showing reliable seasonal surges.
+
 **Pickup** and **Delivery** remain low-volume channels, they contribute modest revenue with minimal long-term growth and limited seasonal lift.
 
 <br><br>
