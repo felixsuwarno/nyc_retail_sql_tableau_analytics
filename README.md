@@ -284,7 +284,7 @@ Key metrics:
 - Annual Gross Profit by each customer segment
 
 <p align="center">
-  <img src="images/Tableau 07a - Gross Profit by Category.png" width="85%">
+  <img src="images/Tableau 08a - Gross Profit by Category.png" width="85%">
 </p>
 
 Margins are strong but concentrated and sensitive to inventory mistakes.  
@@ -301,7 +301,7 @@ The data show both strengths and vulnerabilities:
 
 <br><br>
 <p align="center">
-  <img src="images/Tableau 07b - Profit per Sales Channel .png" width="85%">
+  <img src="images/Tableau 08b - Profit per Sales Channel .png" width="85%">
 </p>
 
 - Pickup/Delivery contribute little profit and remain margin-stagnant
@@ -312,7 +312,7 @@ The data show both strengths and vulnerabilities:
   
 <br><br>
 <p align="center">
-  <img src="images/Tableau 07c - Profit per Customer Segment .png" width="85%">
+  <img src="images/Tableau 08c - Profit per Customer Segment .png" width="85%">
 </p>
 
 - Profit is overwhelmingly **Consumer-driven**; SMB/Enterprise play a minimal role  
