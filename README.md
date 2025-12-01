@@ -259,10 +259,15 @@ U.S. retail holidays dominate the demand curve, while multicultural events offer
 Key metrics :
 - Revenue VS Order Count by Sales Channel ( Quarterly )
 
-<div align="center">
-  <img src="images/Tableau 07a - Revenue VS Order Count by Sales Channel Quarterly .png" width="85%" style="margin-bottom: 30px;">
+<p align="center">
+  <img src="images/Tableau 07a - Revenue VS Order Count by Sales Channel Quarterly .png" width="85%">
+</p>
+
+<p align="center" style="margin:30px 0;"></p>
+
+<p align="center">
   <img src="images/Tableau 07b - Growth of Sales Channel .png" width="85%">
-</div>
+</p>
 
 **Online** is the fastest-growing and highest-revenue channel. It is the core profit engine, outpacing the other channels.
 **Store** remains large but shows slower growth.  
