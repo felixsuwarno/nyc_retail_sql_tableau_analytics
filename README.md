@@ -160,6 +160,8 @@ heavy discounting to purge them out of inventory before holiday season is over.
 **Overall:**  
 Growth comes mainly from **more customers**, not more purchases per customer.  
 The business is heavily dependent on Q4 and should encourage off-season purchases to reduce seasonal risk.
+Margins are strong but concentrated and sensitive to inventory mistakes.  
+NorthStar must manage Q2–Q3 inventory more carefully and reduce reliance on markdown-heavy Q4 performance.
 
 <br><br>
 ---
@@ -178,6 +180,9 @@ Outside holiday periods, MoM growth is small and volatile.
 
 **Overall:**  
 Short-term momentum is inconsistent outside Q4, making the business highly dependent on holiday performance.
+Build stronger Q2–Q3 demand with targeted campaigns.
+Create NorthStar-branded “mini-peak” events outside holidays.
+Expand replenishment programs in Grocery, Beauty, and Baby.
 
 <br><br>
 ---
@@ -191,12 +196,14 @@ Short-term momentum is inconsistent outside Q4, making the business highly depen
   <img src="images/Tableau 03 - Revenue from New VS Returning Customer Monthly.png" width="85%">
 </p>
 
-
 Repeat customers generate the majority of revenue, while revenue from first-time customers declines over time.  
 Holiday peaks are driven almost entirely by returning customers.
 
 **Overall:**  
-Growth is retention-driven. Acquisition is too small relative to total revenue and needs reinforcement.
+Growth is retention-driven, new customer acquisition is too small relative to total revenue and needs reinforcement.
+Run new customers acquisition-focused campaigns in weak months, and improve onboarding to convert first-time 
+buyers into repeat buyers faster.
+Launch referral programs driven by loyal returning customers.
 
 <br><br>
 ---
@@ -253,6 +260,8 @@ Key metrics :
 
 **Overall:**  
 NorthStar’s channel mix is shifting toward an online-first model, requiring continued investment in digital experience and fulfillment.
+Continue heavy investment in Online (core revenue + profit engine).
+Reevaluate Pickup/Delivery economics; adjust thresholds and fees.
 
 <br><br>
 
@@ -273,13 +282,21 @@ Margin insights show both strengths and vulnerabilities:
 - High-margin categories drive most profit: **Clothing, Beauty, Toys, Sports**  
 - Low-margin categories remain flat: **Grocery, Office, Home**
 
+**Overall:**  
+- Invest more in high-margin categories (Clothing, Beauty, Toys, Sports) to maximize profit growth.
+- Improve efficiency in low-margin categories (Grocery, Office, Home) via vendor negotiation, pricing adjustments, or SKU reduction.
+
 <br><br>
 <p align="center">
   <img src="images/Tableau 07b - Profit per Sales Channel .png" width="85%">
 </p>
 
-- Pickup/Delivery contribute little profit and remain margin-stagnant  
-
+- Pickup/Delivery contribute little profit and remain margin-stagnant
+- 
+**Overall:**  
+- Expand and optimize Online + Store channels, which deliver the strongest profitability.
+- Restructure Pickup/Delivery operations to reduce costs or reposition them as convenience services.
+  
 <br><br>
 <p align="center">
   <img src="images/Tableau 07c - Profit per Customer Segment .png" width="85%">
@@ -288,56 +305,12 @@ Margin insights show both strengths and vulnerabilities:
 - Profit is overwhelmingly **Consumer-driven**; SMB/Enterprise play a minimal role  
 
 **Overall:**  
-Margins are strong but concentrated and sensitive to inventory mistakes.  
-NorthStar must manage Q2–Q3 inventory more carefully and reduce reliance on markdown-heavy Q4 performance.
+- Focus marketing and loyalty programs on Consumer customers, the primary profit source.
+- Plan growth strategies around discretionary spending patterns, where the business consistently performs best.
+- Strengthen Consumer experience while exploring SMB/Enterprise expansion.
 
 <br><br>
 ---
 
 
-# 8. Business Recommendations
 
-### 8.1. Reduce Q4 Dependence
-- Build stronger Q2–Q3 demand with targeted campaigns.  
-- Create NorthStar-branded “mini-peak” events outside holidays.  
-- Expand replenishment programs in Grocery, Beauty, and Baby.
-
-### 8.2. Strengthen New Customer Acquisition
-- Run acquisition-focused campaigns in weak months.  
-- Launch referral programs driven by loyal returning customers.  
-- Improve onboarding to convert first-time buyers into repeat buyers faster.
-
-### 8.3. Increase Order Frequency per Customer
-- Use recency-based lifecycle segments (Active, At-risk, Dormant).  
-- Push cross-sell in high-margin categories (Beauty, Clothing, Toys, Sports).
-
-### 8.4. Improve Pricing & Discount Strategy
-- Avoid “panic markdowns” in December by starting earlier markdown cadence for slow movers.  
-- Shift from blanket discounts to targeted, data-driven promos.  
-- Test discount depth to identify optimal markdown levels by category.
-
-### 8.5. Reduce Inventory Risk
-- Tighten Q2–Q3 demand forecasting.  
-- Add mid-season forecast checkpoints.  
-- Classify high-risk SKUs and markdown earlier instead of waiting for Q4.
-
-### 8.6. Channel Optimization
-- Continue heavy investment in Online (core revenue + profit engine).  
-- Reevaluate Pickup/Delivery economics; adjust thresholds and fees.  
-- Use stores as omnichannel hubs (BOPIS with in-store cross-sell).
-
-### 8.7. Category Strategy
-- Double down on high-margin hero categories.  
-- Adjust or reposition weak categories (Grocery, Office, Home).  
-- Build curated bundles mixing high- and low-margin items.
-
-### 8.8. Customer Segment Strategy
-- Strengthen Consumer experience while exploring SMB/Enterprise expansion.  
-- Pilot business accounts, bulk order options, and scheduled delivery.
-
-### 8.9. Analytics & Experimentation Roadmap
-- Build a formal test-and-learn framework for pricing and promos.  
-- Develop a retention & churn monitoring dashboard.  
-- Incorporate LTV into marketing spend decisions.
-
----
