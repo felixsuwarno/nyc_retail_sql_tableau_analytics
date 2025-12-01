@@ -205,7 +205,6 @@ Short-term momentum is inconsistent outside Q4, making the business highly depen
 
 - Build stronger Q2–Q3 demand with targeted campaigns.
 - Create NorthStar-branded “mini-peak” events outside holidays.
-- Expand replenishment programs in Grocery, Beauty, and Baby.
 
 <br><br>
 ---
@@ -317,8 +316,8 @@ The data show both strengths and vulnerabilities:
 **Recommendation:** 
 - Invest more in high-margin categories (Clothing, Beauty, Toys, Sports) to maximize profit growth.
 - Improve efficiency in low-margin categories (Grocery, Office, Home) via vendor negotiation, pricing adjustments, or SKU reduction.
-- Adjust or reposition weak categories (Grocery, Office, Home).
-- Build curated bundles mixing high- and low-margin items.
+- Adjust / reposition / expand replenishment programs on weak categories (Grocery, Office, Home).
+- Build curated bundles mixing high and low-margin items.
 
 <br><br>
 <p align="center">
