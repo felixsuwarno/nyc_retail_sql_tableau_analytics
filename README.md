@@ -127,10 +127,10 @@ Below are the seven business questions analyzed using SQL + Tableau.
 
 ### **1. Monthly Revenue, Customer, and Order Trends (2020–2024)**
 
-**Key Metrics:**  
+
 - Monthly Revenue vs 6-Month Rolling Average  
 - Monthly Order Count vs Monthly Active Customers
-- Monthly Revenue from items purchased at Full Price VS Discounted Price
+
 
 <p align="center">
   <img src="images/Tableau 01a - Revenue Total Monthly .png" width="85%">
@@ -139,6 +139,10 @@ Below are the seven business questions analyzed using SQL + Tableau.
 NorthStar shows strong seasonality: revenue peaks every November–December and drops in January–February.  
 The 6-month rolling average trends upward from **$3.9M → $5.8M**, indicating stable long-term growth. 
 
+### **2. Monthly Revenue, Customer, and Order Trends (2020–2024)**
+
+**Key Metrics:**  
+- Monthly Revenue from items purchased at Full Price VS Discounted Price
 <br><br>
 <p align="center">
   <img src="images/Tableau 01b - Customer vs Order Count.png" width="85%">
