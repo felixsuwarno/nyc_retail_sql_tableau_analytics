@@ -1,0 +1,63 @@
+WITH base AS
+(
+	SELECT 
+		c.customer_id,
+		o.order_id,
+		o.order_date,
+		SUM(line_revenue) AS total_revenue
+	FROM customers c
+	JOIN orders o
+		ON c.customer_id = o.customer_id
+	JOIN order_items oi
+		ON oi.order_id = o.order_id
+	WHERE order_status = 'Completed'
+	GROUP BY c.customer_id, o.order_id, o.order_date
+),
+
+base_numbered AS
+(
+	SELECT
+		customer_id,
+		order_id,
+		order_date,
+		total_revenue,
+		ROW_NUMBER() OVER
+		(
+			PARTITION BY customer_id
+			ORDER BY order_date ASC, order_id ASC
+		) as rank
+	FROM base
+),
+
+base_final AS
+(
+	SELECT 
+		customer_id,
+		DATE_TRUNC('month',order_date)::date AS month,
+		total_revenue,
+		rank
+	FROM base_numbered
+)
+
+SELECT 
+	month,
+	TO_CHAR(month,'YYYY MON') as month_label,
+
+	SUM
+	(
+		CASE
+			WHEN rank = 1 THEN total_revenue ELSE 0
+		END
+	) AS new_customer_revenue,
+
+	SUM
+	(
+		CASE
+			WHEN rank > 1 THEN total_revenue ELSE 0
+		END
+	) AS repeat_customer_revenue
+
+FROM base_final
+GROUP BY month
+ORDER BY month ASC
+	
