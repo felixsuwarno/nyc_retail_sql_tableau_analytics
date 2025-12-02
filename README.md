@@ -289,8 +289,9 @@ Profit is overwhelmingly **Consumer-driven**; SMB/Enterprise play a minimal role
 
 **1. Reduce Over-Dependence on Q4**
 - Revenue drops 50–70% every January after holiday peaks.
-- Create Q2–Q3 mid-year events to stabilize the revenue curve.
+- Create Q2–Q3 mid-year events to stabilize the reduce seasonality.
 - Improve demand forecasting to avoid inventory overstock before Q4.
+- Track forecast vs. actual performance using a dedicated FP&A dashboard.
 
 **2. Shift Away From Discount-Heavy Revenue**
 - Discounted revenue spikes mainly in Winter and drives volatility.
@@ -318,24 +319,7 @@ Profit is overwhelmingly **Consumer-driven**; SMB/Enterprise play a minimal role
 - Build lifecycle email flows (welcome, replenishment reminders, win-back messages).
 - Add loyalty tiers and personalized product recommendations to increase LTV.
 
-**7. Improve Forecast Accuracy and Reduce Volatility**
-- MoM revenue swings indicate misalignment between demand and inventory planning.
-- Forecast at the category, season, and channel level simultaneously.
-- Track forecast vs. actual performance using a dedicated FP&A dashboard.
 
-**8. Optimize Seasonal and Holiday Campaign Strategy**
-- Winter and Fall consistently outperform all other seasons.
-- Expand campaigns into early access, main sale, and last-chance phases.
-- Create additional mid-year sales events to diversify seasonal dependency.
 
-**9. Align Category Strengths With the Right Sales Channels**
-- Online works best for Beauty, Clothing, and Toys.
-- Delivery aligns well with Baby, Grocery, and Home convenience items.
-- Pickup remains useful for customer satisfaction but is not a high-profit driver.
-
-**10. Establish a Consistent FP&A and Analytics Rhythm**
-- Weekly demand reviews and monthly promo performance checks.
-- Quarterly category profitability reviews to guide resource reallocation.
-- Unified dashboards for retention, discount impact, and channel performance.
 
 
