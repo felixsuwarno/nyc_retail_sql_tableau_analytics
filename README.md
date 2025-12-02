@@ -335,6 +335,13 @@ Profit is overwhelmingly **Consumer-driven**; SMB/Enterprise play a minimal role
 - Add loyalty tiers and personalized product recommendations to increase LTV.
 
 
+### 8. Conclusion
+
+NorthStar Retail shows strong long-term growth but is heavily reliant on Q4 promotional surges.
+Profitability is concentrated in a few high-margin categories, customer acquisition is weakening, and Online is the only channel with scalable momentum.
+
+To grow sustainably, NorthStar must rebalance seasonality, reduce discount dependency, expand high-margin categories, strengthen forecasting, deepen retention, and rebuild its new-customer pipeline.
+
 
 
 
