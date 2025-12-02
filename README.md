@@ -131,7 +131,6 @@ Enables: LTV, retention, KPIs, seasonal uplift, category performance, and time-s
 - Identification of growth engines, low-margin risks, and demand cyclicality
 - Executive-level narrative summarizing profitability, seasonality, and channel performance
 
-
 <br><br>
 ---
 
@@ -334,7 +333,8 @@ Profit is overwhelmingly **Consumer-driven**; SMB/Enterprise play a minimal role
 - Build lifecycle email flows (welcome, replenishment reminders, win-back messages).
 - Add loyalty tiers and personalized product recommendations to increase LTV.
 
-
+<br><br>
+---
 ### 8. Conclusion
 
 NorthStar Retail shows strong long-term growth but is heavily reliant on Q4 promotional surges.
