@@ -106,16 +106,31 @@ Enables: LTV, retention, KPIs, seasonal uplift, category performance, and time-s
 
 ## 6. Skills Demonstrated
 
-- SQL window functions (LAG, LEAD, rolling averages)  
-- MoM, QoQ, Y/Y trend analysis  
-- Cohort & retention modeling  
-- LTV computation  
-- Profit & margin modeling  
-- Discount mix analysis  
-- Seasonal & holiday uplift analysis  
-- Star schema design  
-- SQL performance tuning  
-- Data storytelling for business stakeholders  
+**SQL Analytics**
+- SQL window functions (LAG, rolling averages)
+- Month-over-Month, Quarter-over-Quarter, and Year-over-Year trend analysis
+- Profit and gross margin analysis by category, sales channel, and customer segment
+- Discount vs full-price revenue mix analysis
+- Seasonal and holiday uplift analysis
+- New vs returning customer revenue modeling
+
+**Tableau Visualization**
+- Multi-sheet dashboard composition
+- Dual-axis charts (e.g., full-price vs discounted revenue)
+- Trend lines and long-term forecasting visuals
+- Continuous vs discrete date handling
+- Custom color encoding (MoM positive/negative, customer type, category)
+- Sorting across pane-level categories
+- Table calculations (percent change, rolling averages)
+- Facet charts by category, channel, and segment
+- Measure Names / Measure Values for multi-metric views
+- Clear labeling, axis formatting, and data-storytelling driven layout
+
+**Business Analytics**
+- Actionable insights for category strategy, pricing, customer acquisition, and retention
+- Identification of growth engines, low-margin risks, and demand cyclicality
+- Executive-level narrative summarizing profitability, seasonality, and channel performance
+
 
 <br><br>
 ---
