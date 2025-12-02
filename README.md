@@ -292,48 +292,48 @@ Profit is overwhelmingly **Consumer-driven**; SMB/Enterprise play a minimal role
 - Create Q2–Q3 mid-year events to stabilize the revenue curve.
 - Improve demand forecasting to avoid inventory overstock before Q4.
 
-2. Shift Away From Discount-Heavy Revenue
+**2. Shift Away From Discount-Heavy Revenue**
 - Discounted revenue spikes mainly in Winter and drives volatility.
 - Reduce broad seasonal markdowns and move to targeted SKU-level promotions.
 - Improve inventory planning to reduce the need for deep discounts.
 
-3. Expand High-Margin Categories
+**3. Expand High-Margin Categories**
 - Toys, Beauty, and Clothing deliver the strongest and most reliable profit growth.
 - Increase marketing budgets, merchandising depth, and new SKUs in these groups.
 - Reassess low-margin areas such as Grocery, Electronics, and Office.
 
-4. Prioritize Online Sales as the Core Growth Engine
+**4. Prioritize Online Sales as the Core Growth Engine**
 - Online shows the fastest revenue and profit expansion across all channels.
 - Invest in e-commerce UX, retargeting, checkout optimization, and fulfillment.
 - Position Pickup and Delivery as support channels rather than growth drivers.
 
-5. NorthStar Must Acquire More New Customers
+**5. NorthStar Must Acquire More New Customers**
 - New customer revenue declines significantly after strong early years.
 - Growth is now almost entirely driven by repeat customers, creating long-term risk.
 - Launch acquisition-focused campaigns (SEO, paid search, influencer partnerships).
 - Add onboarding incentives such as first-purchase bundles or free shipping thresholds.
 
-6. Strengthen Retention and Loyalty Programs
+**6. Strengthen Retention and Loyalty Programs**
 - Returning customers are responsible for the majority of total revenue.
 - Build lifecycle email flows (welcome, replenishment reminders, win-back messages).
 - Add loyalty tiers and personalized product recommendations to increase LTV.
 
-7. Improve Forecast Accuracy and Reduce Volatility
+**7. Improve Forecast Accuracy and Reduce Volatility**
 - MoM revenue swings indicate misalignment between demand and inventory planning.
 - Forecast at the category, season, and channel level simultaneously.
 - Track forecast vs. actual performance using a dedicated FP&A dashboard.
 
-8. Optimize Seasonal and Holiday Campaign Strategy
+**8. Optimize Seasonal and Holiday Campaign Strategy**
 - Winter and Fall consistently outperform all other seasons.
 - Expand campaigns into early access, main sale, and last-chance phases.
 - Create additional mid-year sales events to diversify seasonal dependency.
 
-9. Align Category Strengths With the Right Sales Channels
+**9. Align Category Strengths With the Right Sales Channels**
 - Online works best for Beauty, Clothing, and Toys.
 - Delivery aligns well with Baby, Grocery, and Home convenience items.
 - Pickup remains useful for customer satisfaction but is not a high-profit driver.
 
-10. Establish a Consistent FP&A and Analytics Rhythm
+**10. Establish a Consistent FP&A and Analytics Rhythm**
 - Weekly demand reviews and monthly promo performance checks.
 - Quarterly category profitability reviews to guide resource reallocation.
 - Unified dashboards for retention, discount impact, and channel performance.
