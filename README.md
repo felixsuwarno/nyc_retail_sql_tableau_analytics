@@ -82,8 +82,8 @@ Includes: `order_id`, `customer_id`, `order_date`, `sales_channel`, `order_statu
 **dim_calendar:** 
 date, Y/M/Q, seasons, holidays, fiscal fields
 
-<p align="center">
-  <img src="images/tables.png" width="55%">
+<p align="left">
+  <img src="images/tables.png" width="75%">
 </p>
 
 
