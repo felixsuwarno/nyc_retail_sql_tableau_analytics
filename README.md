@@ -25,7 +25,7 @@ The goal is to demonstrate real-world SQL analytics workflows, including:
 - Dimensional modeling with a retail star schema (orders, order_items, customers, products, calendar)
 
 
-All data is synthetic but designed to behave like real NYC retail patterns — including holiday spikes and multicultural demand cycles.
+All data is **synthetic but designed to behave like real NYC retail patterns** — including holiday spikes and multicultural demand cycles.
 
 <br><br>
 ---
