@@ -83,7 +83,7 @@ Includes: `order_id`, `customer_id`, `order_date`, `sales_channel`, `order_statu
 date, Y/M/Q, seasons, holidays, fiscal fields
 
 <p align="center">
-  <img src="images/tables (1)" width="85%">
+  <img src="images/tables (1).png" width="85%">
 </p>
 
 
