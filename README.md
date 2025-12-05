@@ -3,6 +3,9 @@
 
 A 5-year retail analytics case study using PostgreSQL + Tableau, modeling revenue, customers, profitability, and seasonality for a fictitious NYC-based omnichannel retailer (NorthStar).
 
+**Executive Summary**
+Over 5 years (2020–2024), NorthStar’s revenue grows steadily but is heavily concentrated in Q4 promotions: revenue spikes every November–December then falls 50–70% in January. Profitability is driven by a handful of high-margin categories (Toys, Beauty, Clothing), while low-margin areas like Grocery and Office lag. Growth is increasingly powered by returning customers and the Online channel, while new-customer acquisition and smaller channels (Pickup, Delivery) underperform and raise long-term risk.
+
 <br><br>
 ---
 
@@ -11,9 +14,9 @@ A 5-year retail analytics case study using PostgreSQL + Tableau, modeling revenu
 This project simulates a large omnichannel retailer serving the New York City metropolitan area between 2020–2024.  
 Think of a NYC-focused version of **Target, Walmart, or Costco**.
 
-The goal is to demonstrate real-world SQL analytics workflows, including:
+The goal is to demonstrate FP&A-style revenue and profitability analytics using SQL + Tableau, including:
 
-- Core revenue & order trend analysis
+- 5-year revenue, order, and customer trend analysis
 - Month-over-month (MoM) revenue movement
 - New vs returning customer revenue behavior
 - Seasonal and holiday-driven demand patterns
@@ -91,14 +94,22 @@ order_items (fact detail)
 dim_calendar (dim)
 
 
-Enables: LTV, retention, KPIs, seasonal uplift, category performance, and time-series analysis through window functions.
+Enables: retention-style customer analysis, core retail KPIs, seasonal uplift, category performance, and time-series analysis through window functions.
 
 <br><br>
 ---
 ## 5. Tech Stack
 
 - **PostgreSQL** — window functions, joins, aggregations  
-- **Tableau Public** — dashboards, KPI charts  
+- **Tableau Public** — dashboards, KPI charts
+
+**My Role**
+I acted as a full-stack analyst for this simulated retailer:
+
+- Designed and queried the star schema (PostgreSQL)
+- Wrote SQL for revenue, margin, and customer-behavior analysis
+- Built Tableau dashboards to support executive decision-making
+- Summarized findings into business recommendations for merchandising, pricing, and channel strategy
 
 <br><br>
 ---
