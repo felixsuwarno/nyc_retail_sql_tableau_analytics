@@ -8,7 +8,10 @@ Over 5 years (2020–2024), NorthStar’s revenue grows steadily but is heavily 
 
 <br><br>
 ---
+The SQL code, and all CSV files can be downloaded here :
+[📦 Download North Star Dataset (RAR)](./data/North%20Star.rar)
 
+<br><br>
 ## 1. Project Overview
 
 This project simulates a large omnichannel retailer serving the New York City metropolitan area between 2020–2024.  
