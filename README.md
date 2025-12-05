@@ -9,7 +9,7 @@ Over 5 years (2020–2024), NorthStar’s revenue grows steadily but is heavily 
 <br><br>
 ---
 The SQL code, and all CSV files can be downloaded here :
-[📦 Download North Star Dataset (RAR)](./data/North%20Star.rar)
+[📥 Direct Download North Star.rar](https://raw.githubusercontent.com/felixsuwarno/nyc_retail_sql_tableau_analytics/main/data/North%20Star.rar)
 
 <br><br>
 ## 1. Project Overview
